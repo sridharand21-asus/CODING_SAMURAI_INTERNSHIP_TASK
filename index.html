@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">SD</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+             <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="themeToggle">🌙</button></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Home -->
+<section id="home" class="hero">
+    <h1>Hi, I'm <span>Sridharan</span></h1>
+    <h2 class="typing"></h2>
+    <p>I build scalable software solutions and designs using different learned technologies efficiently.</p>
+    <div id="pages">
+     <a href="https://github.com/sridharand21-asus" target="_blank" class="btn btn-outline"><i class="github"></i>GitHub</a>
+     <a href="https://www.linkedin.com/in/sridharan-deivathanavelan-8b4751330" target="_blank" class="btn btn-outline"><i class="linkedin"></i>Linkedin</a>
+     <a href="https://www.instagram.com/itzz._.me._.sridhar3/" target="_blank" class="btn btn-outline"><i class="insta"></i>Instagram</a>
+    </div>
+     <img id="profile" src="profile_img.png" alt="">
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        I'm a 3rd-year B.Tech IT student and an aspiring ui/ux designer & full stack developer. 
+        I'm currently learning and building projects using frontend and backend technologies for web development and make elegant ui designs by using many tools and resources, with a strong interest in creating simple, practical applications.
+    </p>
+    <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <strong>Degree</strong>
+                            <span>B.Tech Information Technology ,</span>
+                            <span>A.V.C College Of Engineering</span>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-code-branch"></i>
+                        <div>
+                            <strong>Focus</strong>
+                            <span>UI/UX Design & Web Development</span>
+                        </div>
+                    </div>
+                </div>
+    <div class="about-card">
+                <h3>Why Hire Me?</h3>
+                <ul class="soft-skills">
+                    <li><i class="fas fa-check-circle"></i> <strong>Quick Learner:</strong> Adapts to new tech fast.</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>Problem Solver:</strong> Strong DSA concepts.</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>Collaborative:</strong> Experienced with Git/GitHub.</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>Elegant Designer:</strong> Design more interactively.</li>
+                </ul>
+            </div>
+</section>
+
+ <section id="skills" class="skills">
+        <h2 class="hidden">Technical Skills</h2>
+        <div class="stack-container hidden">
+            
+            <div class="stack-box">
+                <div class="stack-icon"><i class="fas fa-code"></i></div>
+                <h3>Languages</h3>
+                <ul>
+                    <li><i class="fab fa-java"></i> Java (Core & Advanced)</li>
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fab fa-js"></i> JavaScript (ES6+)</li>
+                    <li><i class="fas fa-c++"></i>C/C++</li>
+                </ul>
+            </div>
+
+            <div class="stack-box">
+                <div class="stack-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Web Development</h3>
+                <ul>
+                    <li>React.js</li>
+                    <li>Node.js & Express</li>
+                    <li>HTML5 & CSS3</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
+
+            <div class="stack-box">
+                <div class="stack-icon"><i class="fas fa-tools"></i></div>
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>VS Code</li>
+                    <li>Postman (API Testing)</li>
+                    <li>Figma/Wordpress</li>
+                </ul>
+            </div>
+
+        </div>
+ </section>
+
+<!-- Projects -->
+<section id="projects" class="p.rojects">
+    <h2 id="pjt">Projects</h2>
+
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>FoodApp UI</h3>
+            <p>Design a professional food ordering application UI using figma.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>To-Do Application</h3>
+            <p>Task manager with dynamic JavaScript features.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>E-Commerce Website</h3>
+            <p>Online Shopping website with exiting functions.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 Sridharan | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
